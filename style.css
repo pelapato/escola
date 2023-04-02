@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+}
+* {
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    background-image: linear-gradient(to right,black,rgb(31, 27, 27));
+}
+header > img{
+    position: absolute;
+    width: 100px;
+    display: block;   
+    right: 240px; 
+    bottom: 560px;       
+}
+.link1{
+    position: absolute;
+    display: block;
+    right: 200px;
+    bottom: 504px;
+}
+h2 , p{
+    margin-top: 20px;
+    
+}
+nav{
+    margin-top: 50px;    
+}
+a{
+    color:white;
+    text-decoration: none;
+    margin: 10px;
+}
+a:hover{
+    background-color: rgb(75, 70, 70);
+    padding: 10px 10px 0px 10px;   
+    border-radius: 5px;
+}
+header{
+    text-align: center;
+}
+main{
+    background-color: white;
+    width: 900px;
+    margin: auto;
+    color: black;
+}
+main > img{
+    display: block;
+    margin: auto;
+    width: 600px;
+}
+.freefire2{
+    width: 600px;
+    margin: auto;
+    display: block;
+}
+main > h2 , p {
+    padding-left: 20px;
+}
+.evento{
+    display: block;
+    width: 600px;
+    margin: auto;
+}
+section > iframe{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
